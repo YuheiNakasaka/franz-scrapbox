@@ -1,23 +1,13 @@
 {
+  "id": "scrapbox",
   "name": "Scrapbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial Scrapbox plugin for Franz",
   "main": "index.js",
   "author": "Yuhei Nakasaka <nakasaka@gifmagazine.co.jp>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://scrapbox.io/",
-    "serviceName": "Scrapbox",
-    "message": "",
-    "popup": [],
-    "hasNotificationSound": false,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "serviceURL": "https://scrapbox.io",
+    "hasNotificationSound": false
   }
 }
