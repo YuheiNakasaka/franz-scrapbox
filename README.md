@@ -1,17 +1,16 @@
 # Unofficial Scrapbox plugin for [Franz](http://meetfranz.com/)
 
-The minimum required version of Franz to run custom integrations is 4.0.0. You can download the latest version of Franz [here](http://meetfranz.com/#download).
-
-This plugin forked from [https://github.com/extendfranz/trello](https://github.com/extendfranz/trello) and only replaced trello to scrapbox.
+The minimum required version of Franz to run custom integrations is 5.0.0. You can download the latest version of Franz [here](http://meetfranz.com/#download).
 
 ## Installation
 
-To install the Scrapbox plugin, download the [latest release](https://github.com/YuheiNakasaka/franz-scrapbox/releases/latest) and extract it in the Franz plugins directory. You can access the plugins directory by going to the Franz settings page and finding the "Open the Franz plugin directory" option.
+1. To install a new integration, download the [latest release](https://github.com/YuheiNakasaka/franz-scrapbox/releases/latest)
 
-The direct paths to the plugin directory for the currently supported architectures are as follows:
+2. Open the Franz Plugins folder on your machine (note that this dev directory may not exist yet, and you must create it):
 
- * Mac: `~/Library/Application Support/Franz/Plugins`
- * Windows: `%appdata%/Franz/Roaming/Plugins`
- * Linux: `~/.config/Franz/Plugins`
+ * Mac: `~/Library/Application Support/Franz/recipes/dev/`
+ * Windows: `%appdata%/Franz/Roaming/recipes/dev/`
+ * Linux: `~/.config/Franz/recipes/dev/`
 
-Once installed, you will have to restart Franz in order for it to detect the new plugin.
+3. Copy the scrapbox folder into the plugins directory
+4. Reload Franz
